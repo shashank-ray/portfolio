@@ -1,0 +1,62 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light grey background for a modern look */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #4a69bd; /* Rich blue for the navbar */
+}
+
+.navbar button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    width: 25%;
+    background-color: #6a89cc; /* Slightly lighter blue for buttons */
+}
+
+.navbar button:hover, .navbar .active {
+    background-color: #1e3799; /* Darker blue on hover and for active tab */
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: white; /* White background for content area */
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-container img {
+    margin: 10px;
+    width: calc(25% - 20px);
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    .gallery-container img {
+        width: calc(50% - 20px);
+    }
+}

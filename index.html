@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <button class="tablink" onclick="openTab(event, 'Home')">Tab1 - Home</button>
+        <button class="tablink" onclick="openTab(event, 'About')">Tab2 - About Me</button>
+        <button class="tablink" onclick="openTab(event, 'Contact')">Tab3 - Contact Me</button>
+        <button class="tablink" onclick="openTab(event, 'Gallery')">Tab4 - My Gallery</button>
+    </div>
+
+    <div id="Home" class="tabcontent">
+        <h3>Welcome Home</h3>
+        <p>This is the home tab where you can find general information about the website and its purpose. Feel free to browse through other tabs to learn more about what we do and see some of our work.</p>
+        <p>Our mission is to provide high-quality content and showcase our best projects. Stay tuned for updates and new features!</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About Me</h3>
+        <p>I am a web developer with a passion for creating beautiful and functional websites. With years of experience in both front-end and back-end technologies, I bring a comprehensive skill set and dedication to every project.</p>
+        <p>My expertise includes HTML, CSS, JavaScript, and various modern frameworks and libraries. Always eager to learn new technologies and improve my skills.</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact Me</h3>
+        <p>If you have any questions or would like to get in touch, please do not hesitate to contact me. You can reach me via email at example@example.com or follow me on social media.</p>
+        <p>Let's connect! I am always open to discussing new projects or opportunities to collaborate.</p>
+    </div>
+
+    <div id="Gallery" class="tabcontent">
+        <h3>My Gallery</h3>
+        <p>Below are some of the projects I have worked on. Each image represents a unique challenge and a successful solution.</p>
+        <div class="gallery-container">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image">
+            <img src="https://via.placeholder.com/150" alt="Gallery Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
