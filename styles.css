@@ -47,6 +47,20 @@ body, html {
     width: calc(25% - 20px);
     height: auto;
 }
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 25%;  /* Full width of the form */
+    height: 15px;  /* Fixed height */
+    resize: none;  /* Disable resizing */
+}
+.social-media a img {
+    width: 32px;  /* Set the desired width */
+    height: 32px; /* Set the desired height */
+}
+
 
 @media screen and (max-width: 600px) {
     .navbar button {
